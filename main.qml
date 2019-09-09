@@ -48,8 +48,8 @@ ApplicationWindow {
                 id : circle
                 color: backgroundColor
                 anchors.margins: 10
-                height: parent.height * 0.8
-                width: parent.width * 0.8
+                height: parent.height * 0.75
+                width: parent.width * 0.75
                 anchors.horizontalCenter: parent.horizontalCenter
                 radius: parent.width
                 border {

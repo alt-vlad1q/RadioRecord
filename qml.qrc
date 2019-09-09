@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>icons/Deep.svg</file>
+        <file>icons/Gold.svg</file>
+        <file>icons/Radio Record.svg</file>
+        <file>icons/Веснушка FM.svg</file>
+        <file>icons/Innocence.svg</file>
+        <file>icons/Маятник Фуко.svg</file>
+    </qresource>
+</RCC>

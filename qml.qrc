@@ -7,5 +7,18 @@
         <file>icons/Веснушка FM.svg</file>
         <file>icons/Innocence.svg</file>
         <file>icons/Маятник Фуко.svg</file>
+        <file>icons/Electro.svg</file>
+        <file>icons/Midtempo.svg</file>
+        <file>icons/Bass House.svg</file>
+        <file>icons/House Hits.svg</file>
+        <file>icons/Progressive.svg</file>
+        <file>icons/Synthwave.svg</file>
+        <file>icons/Russian Hits.svg</file>
+        <file>icons/Big Hits.svg</file>
+        <file>icons/Darkside.svg</file>
+        <file>icons/Dream Dance.svg</file>
+        <file>icons/EDM Hits.svg</file>
+        <file>icons/House Classics.svg</file>
+        <file>icons/Uplifting.svg</file>
     </qresource>
 </RCC>

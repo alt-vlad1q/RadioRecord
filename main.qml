@@ -24,6 +24,22 @@ ApplicationWindow {
         ListElement{ text: "Gold" }
         ListElement{ text: "Innocence" }
         ListElement{ text: "Маятник Фуко" }
+        ListElement{ text: "Electro"}
+        ListElement{ text: "Midtempo"}
+        ListElement{ text: "Bass House"}
+        ListElement{ text: "Progressive"}
+        ListElement{ text: "Synthwave"}
+        ListElement{ text: "House Hits"}
+        ListElement{ text: "Big Hits"}
+        ListElement{ text: "Dream Dance"}
+        ListElement{ text: "Darkside"}
+        ListElement{ text: "Uplifting"}
+        ListElement{ text: "House Classics"}
+        ListElement{ text: "EDM Hits"}
+
+
+        ListElement{ text: "Russian Hits"}
+
     }
 
     GridView {
@@ -36,13 +52,16 @@ ApplicationWindow {
         model: dataModel
         clip: true
 
-        delegate: SwipeDelegate {
+
+
+        delegate: FocusScope {
             property var view: GridView.view
             property var isCurrent: GridView.isCurrentItem
 
+            KeyNavigation.up: view.itemAt(0,0)
             height: view.cellHeight
             width: view.cellWidth
-            background: Rectangle{color: backgroundColor}
+//            background: Rectangle{color: backgroundColor}
 
             Rectangle {
                 id : circle
@@ -77,6 +96,17 @@ ApplicationWindow {
                         Chooser.setStation(model.text)
                     }
                 }
+            }
+            TextArea{
+                width: 100
+                height: 50
+                visible: true
+                focus: true
+                anchors.top: text.bottom
+                Keys.onReturnPressed: {
+                        console.log("up")
+                }
+
             }
 
             Text {

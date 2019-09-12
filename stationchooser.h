@@ -4,6 +4,7 @@
 #include <QObject>
 #include <QMediaPlayer>
 #include <QMap>
+#include <QScopedPointer>
 
 class StationChooser : public QObject
 {
@@ -13,9 +14,10 @@ public:
     ~StationChooser();
 
     Q_INVOKABLE void setStation(QString name);
+    Q_INVOKABLE void stop();
 
 private:
-    QMediaPlayer *m_player;
+    QScopedPointer<QMediaPlayer> m_player;
     QMap<QString, QUrl> m_stations;
 
 };

@@ -17,7 +17,6 @@ ApplicationWindow {
 
     ListModel {
         id: dataModel
-
         ListElement{ text: "Radio Record" }
         ListElement{ text: "Deep" }
         ListElement{ text: "Веснушка FM" }
@@ -36,32 +35,66 @@ ApplicationWindow {
         ListElement{ text: "Uplifting"}
         ListElement{ text: "House Classics"}
         ListElement{ text: "EDM Hits"}
-
-
+        ListElement{ text: "Neurofunk"}
+        ListElement{ text: "Tecktonik"}
+        ListElement{ text: "2-step"}
+        ListElement{ text: "Trance Hits"}
+        ListElement{ text: "Rap Hits"}
+        ListElement{ text: "Rap Classics"}
+        ListElement{ text: "Cadillac"}
+        ListElement{ text: "1980-е"}
+        ListElement{ text: "Chill House"}
+        ListElement{ text: "1970-е"}
+        ListElement{ text: "Complextro"}
+        ListElement{ text: "Groove Tribal"}
         ListElement{ text: "Russian Hits"}
-
+        ListElement{ text: "Megamix"}
+        ListElement{ text: "Jungle"}
+        ListElement{ text: "Liquid Funk"}
+        ListElement{ text: "Drum'n'Bass Hits"}
+        ListElement{ text: "Russian Gold"}
+        ListElement{ text: "Eurodance"}
+        ListElement{ text: "Technopop"}
+        ListElement{ text: "Disco Func"}
+        ListElement{ text: "EDM"}
+        ListElement{ text: "Tropical"}
+        ListElement{ text: "GOA PSY"}
     }
 
     GridView {
         id: view
-        property int countColumns: Screen.width >= 920 ? 8 : 3
+        property int countColumns: Screen.width <= 400 ? 3 : Screen.width <= 700 ? 5 : 8
         anchors.margins: 10
         anchors.fill: parent
         cellHeight: (Screen.desktopAvailableWidth / countColumns) - (view.anchors.margins - (view.anchors.margins / 3))
         cellWidth: cellHeight
+        currentIndex: -1;
         model: dataModel
         clip: true
-
-
+        focus: true
 
         delegate: FocusScope {
             property var view: GridView.view
             property var isCurrent: GridView.isCurrentItem
+            property bool isActive: false
+            property bool isActiveKey: false
 
-            KeyNavigation.up: view.itemAt(0,0)
             height: view.cellHeight
             width: view.cellWidth
-//            background: Rectangle{color: backgroundColor}
+
+            Keys.onPressed: {
+                if(event.key === Qt.Key_Return || event.key === Qt.Key_Enter)
+                {
+                    if(isActive) {
+                        Chooser.stop()
+                        isActive = false;
+                    } else {
+                        view.currentIndex = model.index
+                        Chooser.setStation(model.text)
+                        isActive = true;
+                    }
+                }
+            }
 
             Rectangle {
                 id : circle
@@ -92,21 +125,18 @@ ApplicationWindow {
                 MouseArea {
                     anchors.fill: parent
                     onClicked: {
-                        view.currentIndex = model.index
-                        Chooser.setStation(model.text)
+                        if(isActive) {
+                            Chooser.stop()
+                            view.currentIndex = -1;
+                            isActive = false;
+                        } else {
+                            view.currentIndex = model.index
+                            Chooser.setStation(model.text)
+                            isActive = true;
+                        }
+                        console.log("onClicked " + isActiveKey)
                     }
                 }
-            }
-            TextArea{
-                width: 100
-                height: 50
-                visible: true
-                focus: true
-                anchors.top: text.bottom
-                Keys.onReturnPressed: {
-                        console.log("up")
-                }
-
             }
 
             Text {
@@ -118,7 +148,6 @@ ApplicationWindow {
                 font.pointSize: 16
                 horizontalAlignment: Text.AlignHCenter
                 renderType: Text.NativeRendering
-                //  text: "%1%2".arg(model.text).arg(isCurrent ? " * " : "")
                 text: "%1".arg(model.text)
                 color: isCurrent ? elementColor : activeColor
             }

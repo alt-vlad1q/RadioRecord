@@ -20,5 +20,28 @@
         <file>icons/EDM Hits.svg</file>
         <file>icons/House Classics.svg</file>
         <file>icons/Uplifting.svg</file>
+        <file>icons/2-step.svg</file>
+        <file>icons/Tecktonik.svg</file>
+        <file>icons/Trance Hits.svg</file>
+        <file>icons/Neurofunk.svg</file>
+        <file>icons/1980-е.svg</file>
+        <file>icons/Cadillac.svg</file>
+        <file>icons/Chill House.svg</file>
+        <file>icons/Rap Classics.svg</file>
+        <file>icons/Rap Hits.svg</file>
+        <file>icons/1970-е.svg</file>
+        <file>icons/Complextro.svg</file>
+        <file>icons/Groove Tribal.svg</file>
+        <file>icons/Megamix.svg</file>
+        <file>icons/Disco Func.svg</file>
+        <file>icons/Drum'n'Bass Hits.svg</file>
+        <file>icons/EDM.svg</file>
+        <file>icons/Eurodance.svg</file>
+        <file>icons/GOA PSY.svg</file>
+        <file>icons/Jungle.svg</file>
+        <file>icons/Liquid Funk.svg</file>
+        <file>icons/Russian Gold.svg</file>
+        <file>icons/Technopop.svg</file>
+        <file>icons/Tropical.svg</file>
     </qresource>
 </RCC>

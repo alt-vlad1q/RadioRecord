@@ -35,94 +35,137 @@
    id="namedview23"
    showgrid="false"
    inkscape:zoom="7.6129031"
-   inkscape:cx="28.421405"
-   inkscape:cy="25.880042"
+   inkscape:cx="23.499301"
+   inkscape:cy="37.655528"
    inkscape:window-x="52"
    inkscape:window-y="27"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_1" />
+   inkscape:current-layer="Layer_1"
+   inkscape:object-nodes="false"
+   inkscape:snap-nodes="false"
+   inkscape:snap-others="false" />
 <g
-   id="g20">
+   id="g20"
+   transform="matrix(0.64914832,0,0,0.64914832,9.9513035,13.459905)">
 <g
    id="g14">
 	<g
    id="g6">
 		
 			<polyline
-   fill="none"
-   stroke-width="1.5"
-   stroke-linecap="round"
-   stroke-linejoin="round"
    stroke-miterlimit="10"
    points="    21.2,44.1 21.2,25.3 25.4,30.2   "
-   id="polyline2" />
+   id="polyline2"
+   style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
 		
 			<polyline
-   fill="none"
-   stroke-width="1.5"
-   stroke-linecap="round"
-   stroke-linejoin="round"
    stroke-miterlimit="10"
    points="    29.5,44.1 29.5,25.3 25.4,30.2   "
-   id="polyline4" />
+   id="polyline4"
+   style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
 	</g>
 	<g
    id="g12">
 		
 			<rect
-   x="34.2"
-   y="25.3"
-   fill="none"
-   stroke-width="1.5"
-   stroke-linecap="round"
-   stroke-linejoin="round"
+   x="34.200001"
+   y="25.299999"
    stroke-miterlimit="10"
    width="14.9"
-   height="5.3"
-   id="rect8" />
+   height="5.3000002"
+   id="rect8"
+   style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
 		
 			<line
-   fill="none"
-   stroke-width="1.5"
-   stroke-linecap="round"
-   stroke-linejoin="round"
    stroke-miterlimit="10"
-   x1="41.7"
+   x1="41.700001"
    y1="25.5"
-   x2="41.7"
-   y2="44.1"
-   id="line10" />
+   x2="41.700001"
+   y2="44.099998"
+   id="line10"
+   style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
 	</g>
 </g>
 <rect
    x="14.7"
-   y="20.7"
-   fill="none"
-   stroke-width="1.5"
+   y="20.700001"
    stroke-miterlimit="10"
    width="41"
    height="28"
-   id="rect16" />
+   id="rect16"
+   style="fill:none;stroke-width:1.5;stroke-miterlimit:10" />
 <rect
    x="11.7"
-   y="17.7"
-   fill="none"
-   stroke-width="1.5"
+   y="17.700001"
    stroke-miterlimit="10"
    width="47"
    height="34"
-   id="rect18" />
+   id="rect18"
+   style="fill:none;stroke-width:1.5;stroke-miterlimit:10" />
 </g>
-<text
-   xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:30.55642509px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.76391053"
-   x="4.9335666"
-   y="47.603519"
-   id="text4542"><tspan
-     sodipodi:role="line"
-     id="tspan4540"
-     x="4.9335666"
-     y="47.603519"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:11.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0.05101711px;word-spacing:0.08162738px;stroke-width:0.76391053">МФ</tspan></text>
 
-</svg>
+
+<rect
+   style="fill:#000000;fill-opacity:1;stroke-width:0.73290938"
+   id="rect896"
+   width="3.2837009"
+   height="20.568649"
+   x="24.033937"
+   y="20.54401"
+   transform="rotate(11.217383)" /><rect
+   style="fill:#000000;fill-opacity:1;stroke-width:0.73290938"
+   id="rect896-3"
+   width="3.2837009"
+   height="20.568649"
+   x="-19.019093"
+   y="28.96706"
+   transform="matrix(-0.98089618,0.19453195,0.19453195,0.98089618,0,0)" /><rect
+   style="fill:#000000;fill-opacity:1;stroke-width:0.73290938"
+   id="rect896-6"
+   width="3.2837009"
+   height="20.568649"
+   x="33.822289"
+   y="18.621471"
+   transform="rotate(11.217383)" /><rect
+   style="fill:#000000;fill-opacity:1;stroke-width:0.73290938"
+   id="rect896-3-7"
+   width="3.2837009"
+   height="20.568649"
+   x="-28.800306"
+   y="30.925571"
+   transform="matrix(-0.98089618,0.19453195,0.19453195,0.98089618,0,0)" /><rect
+   style="fill:#000000;fill-opacity:1;stroke-width:0.73290938"
+   id="rect896-3-7-0"
+   width="3.2837009"
+   height="20.568649"
+   x="-45.615299"
+   y="25.090839"
+   transform="matrix(-0.99996003,0.00894034,0.00894034,0.99996003,0,0)" /><rect
+   style="fill:#000000;fill-opacity:1;stroke-width:0.60468882"
+   id="rect896-3-7-0-9"
+   width="3.2836301"
+   height="14.001624"
+   x="-28.577295"
+   y="-56.423969"
+   transform="matrix(-0.00608577,-0.99998148,-0.99991375,0.01313353,0,0)" /><rect
+   style="fill:#000000;fill-opacity:1;stroke-width:0.56492615"
+   id="rect896-3-7-0-9-3"
+   width="3.2836158"
+   height="12.220807"
+   x="-36.353848"
+   y="-54.901287"
+   transform="matrix(-0.00531162,-0.99998589,-0.99988678,0.01504736,0,0)"
+   inkscape:transform-center-x="-1.1188426"
+   inkscape:transform-center-y="-3.4555991" /><rect
+   style="fill:#000000;fill-opacity:1;stroke-width:0.84861755"
+   id="rect1063"
+   width="42.581905"
+   height="3.567071"
+   x="14.413741"
+   y="49.583309" /><rect
+   style="fill:#000000;fill-opacity:1;stroke-width:0.84861755"
+   id="rect1063-6"
+   width="42.581905"
+   height="3.567071"
+   x="14.190798"
+   y="17.591146" /></svg>

@@ -59,6 +59,36 @@ ApplicationWindow {
         ListElement{ text: "EDM"}
         ListElement{ text: "Tropical"}
         ListElement{ text: "GOA PSY"}
+        ListElement{ text: "Future House"}
+        ListElement{ text: "Trancemission"}
+        ListElement{ text: "Chill-Out"}
+        ListElement{ text: "Minimal Tech"}
+        ListElement{ text: "Pirate Station"}
+        ListElement{ text: "Russian Mix"}
+        ListElement{ text: "Vip House"}
+        ListElement{ text: "Дискотека 90"}
+        ListElement{ text: "Moombahton"}
+        ListElement{ text: "Trancehouse"}
+        ListElement{ text: "Hypnotic"}
+        ListElement{ text: "Breaks"}
+        ListElement{ text: "Dubstep"}
+        ListElement{ text: "Dancecore"}
+        ListElement{ text: "Techno"}
+        ListElement{ text: "Remix"}
+        ListElement{ text: "Future Bass"}
+        ListElement{ text: "Hardstyle"}
+        ListElement{ text: "Hard Bass"}
+        ListElement{ text: "Trap"}
+        ListElement{ text: "Old School"}
+        ListElement{ text: "Rock"}
+        ListElement{ text: "Медляк FM"}
+        ListElement{ text: "Гоп FM"}
+        ListElement{ text: "Симфония FM"}
+        ListElement{ text: "Black"}
+        ListElement{ text: "Rave FM"}
+        ListElement{ text: "Гастарбайтер FM"}
+        ListElement{ text: "Нафталин FM"}
+        ListElement{ text: "Аншлаг FM"}
     }
 
     GridView {
@@ -83,6 +113,7 @@ ApplicationWindow {
             width: view.cellWidth
 
             Keys.onPressed: {
+//                text.text = event.key
                 if(event.key === Qt.Key_Return || event.key === Qt.Key_Enter)
                 {
                     if(isActive) {
@@ -134,7 +165,6 @@ ApplicationWindow {
                             Chooser.setStation(model.text)
                             isActive = true;
                         }
-                        console.log("onClicked " + isActiveKey)
                     }
                 }
             }

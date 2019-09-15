@@ -43,5 +43,35 @@
         <file>icons/Russian Gold.svg</file>
         <file>icons/Technopop.svg</file>
         <file>icons/Tropical.svg</file>
+        <file>icons/Chill-Out.svg</file>
+        <file>icons/Future House.svg</file>
+        <file>icons/Minimal Tech.svg</file>
+        <file>icons/Moombahton.svg</file>
+        <file>icons/Pirate Station.svg</file>
+        <file>icons/Russian Mix.svg</file>
+        <file>icons/Trancehouse.svg</file>
+        <file>icons/Trancemission.svg</file>
+        <file>icons/Vip House.svg</file>
+        <file>icons/Дискотека 90.svg</file>
+        <file>icons/Breaks.svg</file>
+        <file>icons/Dancecore.svg</file>
+        <file>icons/Dubstep.svg</file>
+        <file>icons/Future Bass.svg</file>
+        <file>icons/Hard Bass.svg</file>
+        <file>icons/Hardstyle.svg</file>
+        <file>icons/Hypnotic.svg</file>
+        <file>icons/Remix.svg</file>
+        <file>icons/Techno.svg</file>
+        <file>icons/Trap.svg</file>
+        <file>icons/Black.svg</file>
+        <file>icons/Old School.svg</file>
+        <file>icons/Rave FM.svg</file>
+        <file>icons/Rock.svg</file>
+        <file>icons/Гастарбайтер FM.svg</file>
+        <file>icons/Гоп FM.svg</file>
+        <file>icons/Медляк FM.svg</file>
+        <file>icons/Нафталин FM.svg</file>
+        <file>icons/Симфония FM.svg</file>
+        <file>icons/Аншлаг FM.svg</file>
     </qresource>
 </RCC>

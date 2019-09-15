@@ -48,6 +48,36 @@ StationChooser::StationChooser(QObject *parent) : QObject(parent), m_player(new 
     m_stations.insert(QString("EDM"), QUrl("http://air.radiorecord.ru:805/club_320"));
     m_stations.insert(QString("Tropical"), QUrl("http://air.radiorecord.ru:805/trop_320"));
     m_stations.insert(QString("GOA PSY"), QUrl("http://air.radiorecord.ru:805/goa_320"));
+    m_stations.insert(QString("Future House"), QUrl("http://air.radiorecord.ru:805/fut_320"));
+    m_stations.insert(QString("Trancemission"), QUrl("http://air.radiorecord.ru:805/tm_320"));
+    m_stations.insert(QString("Chill-Out"), QUrl("http://air.radiorecord.ru:805/chil_320"));
+    m_stations.insert(QString("Minimal Tech"), QUrl("http://air.radiorecord.ru:805/mini_320"));
+    m_stations.insert(QString("Pirate Station"), QUrl("http://air.radiorecord.ru:805/ps_320"));
+    m_stations.insert(QString("Russian Mix"), QUrl("http://air.radiorecord.ru:805/rus_320"));
+    m_stations.insert(QString("Vip House"), QUrl("http://air.radiorecord.ru:805/vip_320"));
+    m_stations.insert(QString("Дискотека 90"), QUrl("http://air.radiorecord.ru:805/sd90_320"));
+    m_stations.insert(QString("Moombahton"), QUrl("http://air.radiorecord.ru:805/mmbt_320"));
+    m_stations.insert(QString("Trancehouse"), QUrl("http://air.radiorecord.ru:805/trancehouse_320"));
+    m_stations.insert(QString("Hypnotic"), QUrl("http://air.radiorecord.ru:805/hypno_320"));
+    m_stations.insert(QString("Breaks"), QUrl("http://air.radiorecord.ru:805/brks_320"));
+    m_stations.insert(QString("Dubstep"), QUrl("http://air.radiorecord.ru:805/dub_320"));
+    m_stations.insert(QString("Dancecore"), QUrl("http://air.radiorecord.ru:805/dc_320"));
+    m_stations.insert(QString("Techno"), QUrl("http://air.radiorecord.ru:805/techno_320"));
+    m_stations.insert(QString("Remix"), QUrl("http://air.radiorecord.ru:805/rmx_320"));
+    m_stations.insert(QString("Future Bass"), QUrl("http://air.radiorecord.ru:805/fbass_320"));
+    m_stations.insert(QString("Hardstyle"), QUrl("http://air.radiorecord.ru:805/teo_320"));
+    m_stations.insert(QString("Hard Bass"), QUrl("http://air.radiorecord.ru:805/hbass_320"));
+    m_stations.insert(QString("Trap"), QUrl("http://air.radiorecord.ru:805/trap_320"));
+    m_stations.insert(QString("Old School"), QUrl("http://air.radiorecord.ru:805/pump_320"));
+    m_stations.insert(QString("Rock"), QUrl("http://air.radiorecord.ru:805/rock_320"));
+    m_stations.insert(QString("Медляк FM"), QUrl("http://air.radiorecord.ru:805/mdl_320"));
+    m_stations.insert(QString("Гоп FM"), QUrl("http://air.radiorecord.ru:805/gop_320"));
+    m_stations.insert(QString("Симфония FM"), QUrl("http://air.radiorecord.ru:805/symph_320"));
+    m_stations.insert(QString("Black"), QUrl("http://air.radiorecord.ru:805/yo_320"));
+    m_stations.insert(QString("Rave FM"), QUrl("http://air.radiorecord.ru:805/rave_320"));
+    m_stations.insert(QString("Гастарбайтер FM"), QUrl("http://air.radiorecord.ru:805/gast_320"));
+    m_stations.insert(QString("Нафталин FM"), QUrl("http://air.radiorecord.ru:805/naft_320"));
+    m_stations.insert(QString("Аншлаг FM"), QUrl("http://air.radiorecord.ru:805/ansh_320"));
 }
 
 StationChooser::~StationChooser()
